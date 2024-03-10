@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'constant.dart';
-import 'home_screen.dart';
-// import 'login_screen.dart';
+// import 'home_screen.dart';
+import 'login_screen.dart';
 
 void main() {
   runApp(const InitialScreen());
@@ -15,8 +15,8 @@ class InitialScreen extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: appName,
-      // home: LoginScreen(),
-      home: HomeScreen(),
+      home: LoginScreen(),
+      // home: HomeScreen(),
     );
   }
 }
